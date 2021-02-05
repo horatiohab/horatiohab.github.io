@@ -1,0 +1,127 @@
+/* Styling for elements within the body */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #F8F8F8;
+}
+
+/* Styling for all elements to default with no margin or padding */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for the header/navigation bar */
+
+.header {
+  width: 100%;
+  padding: 0px;
+  margin: 0;
+  background: white;
+  box-shadow: 5px 0px 3px 5px #888888;
+}
+
+/* Styling for the text within the navigation bar */
+
+.header-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 150px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 0;
+  color: #494F54;
+  font-size: 20px;
+}
+
+/* Styling for the hero-image, stock image taken from pixabay */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2018/11/29/23/34/cat-3846780_1280.jpg);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Styling for the text within the hero image, with commented out tests for gradient text */
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 200px;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  color: white;
+/*  background-image: linear-gradient(to bottom right, #bdc3c7, #2c3e50); */
+/*  -webkit-background-clip: text; */
+/*  -webkit-text-fill-color:transparent; */
+}
+
+/* Styling for the Google Icon Button, including mouse hover and clicked(focus) colours */
+
+.btn {
+  background: none;
+  border: none;
+  border-radius: 10%;
+  color: #4284F7;
+  font-size: 50px;
+}
+
+.btn:hover {
+  color: #89b2f4;
+}
+
+.btn:focus {
+  color: #ea726b;
+}
+
+/* Styling for a divider that indicates a new section to the webpage */
+
+.divider {
+  width: 100%;
+  height: 50px;
+  background: white;
+  box-shadow: 0px 0px 5px 1px #d3d3d3;
+}
+
+/* Card Styling */
+
+.card {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  text-align: left;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 30px;
+  color: #494F54;
+  border-radius: 7px;
+  background: white;
+}
+
+/* Footer styling with name and date text */
+
+.footer_sig {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #EFEFEF;
+}
